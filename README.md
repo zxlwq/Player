@@ -1,6 +1,8 @@
 # 在线音乐播放器
 
-![zxlwq](./zxlwq.webp)
+<p align="center">
+  <img src="./zxlwq.webp" alt="logo" />
+</p>
 
 ## 这是一个在线音乐播放器，支持GitHub仓库，R2存储桶，云盘，API等歌单，支持可批量添加或删除，支持多种音乐格式: mp3/wav/flac/m4a
 
