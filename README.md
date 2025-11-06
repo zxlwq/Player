@@ -39,7 +39,7 @@
 # Serv00平台部署
 
 - 添加域名时选择类型为Node.js
-- 上传项目文件压缩包到public_nodejs文件夹里
+- 上传项目文件压缩包到public_nodejs文件夹内解压
 - SSH里cd到public_nodejs文件夹安装依赖后重启站点
 ```
 cd domains/你的域名/public_nodejs
