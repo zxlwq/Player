@@ -36,6 +36,26 @@
 
 
 
+# Serv00平台部署
+
+- 添加域名时选择类型为Node.js
+- 上传项目文件压缩包到public_nodejs文件夹里
+- SSH里cd到public_nodejs文件夹安装依赖后重启站点
+```
+cd domains/你的域名/public_nodejs
+```
+```
+npm install
+```
+```
+devil www restart 你的域名
+```
+
+
+---
+
+
+
 
 # Docker容器平台部署
 
@@ -200,4 +220,5 @@ screen npm start
 - WebDAV 云盘文件夹必需为 'music'
 - 音频文件应放在云盘的 `music` 目录下
 - 支持的格式: mp3/wav/flac/m4a
+
 
